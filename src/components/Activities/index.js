@@ -45,10 +45,10 @@ export default function Activities(){
 
                 <CardFooter>
                     <Details>
-                        <Value>R$ 18,00</Value>
+                        <Value>R$ 138,00</Value>
                         <Divider />
                         <Feather name="lock" size={14} color="#fff" />
-                        <Date>há 2 anos</Date>
+                        <Date>há 9 dias</Date>
                     </Details>
 
                     <Actions>
@@ -63,7 +63,6 @@ export default function Activities(){
                     </Actions>
 
                 </CardFooter>
-
             </Card>
 
         </Conatiner>

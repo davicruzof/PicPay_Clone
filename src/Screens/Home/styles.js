@@ -29,6 +29,6 @@ export const BalenceTitle = styled.Text`
 export const Balence = styled.Text`
     color: #fff;
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
 `;

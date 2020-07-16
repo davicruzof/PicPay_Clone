@@ -4,7 +4,6 @@ import { MaterialCommunityIcons, AntDesign, Feather } from '@expo/vector-icons';
 import Suggestions from '../../components/Suggestions';
 import Activities from '../../components/Activities';
 import { View } from 'react-native';
-import { divide } from 'react-native-reanimated';
 
 export default function Pay() {
   return (
@@ -14,7 +13,7 @@ export default function Pay() {
 
         <BalanceConatiner>
           <BalenceTitle>Meu Saldo</BalenceTitle>
-          <Balence>R$ 0,00</Balence>
+          <Balence>R$ 2450,00</Balence>
         </BalanceConatiner>
 
         <View style={{flexDirection:"row"}}>
