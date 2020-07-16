@@ -13,12 +13,12 @@ const items = [
     {
         key: String(Math.random()),
         img: img1,
-        label: 'Doações'
+        label: 'Recarga de Celular'
     },
     {
         key: String(Math.random()),
         img: img2,
-        label: 'Uber'
+        label: 'Uber Pré-Pago'
     },
     {
         key: String(Math.random()),
@@ -28,22 +28,22 @@ const items = [
     {
         key: String(Math.random()),
         img: img4,
-        label: 'Pre-Págo'
+        label: 'SKY TV Pre-Págo'
     },
     {
         key: String(Math.random()),
         img: img5,
-        label: 'Favoritos'
+        label: 'Doações'
     },
     {
         key: String(Math.random()),
         img: img6,
-        label: 'Pagar com'
+        label: 'Pagar Conta'
     },
     {
         key: String(Math.random()),
         img: img7,
-        label: 'Dúvidas'
+        label: 'Cobrar'
     },
 ]
 
@@ -55,7 +55,7 @@ export default function Suggestions(){
                     (item) => (
                         <Option key = { items.key }>
                             <Img source={item.img} />
-                    <Label>{item.label}</Label>
+                            <Label>{item.label}</Label>
                         </Option>
                     )
                 )

@@ -13,6 +13,7 @@ export const Header = styled.View`
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    padding-top: 10px;
 `;
 
 export const BalanceConatiner = styled.View`
@@ -21,13 +22,13 @@ export const BalanceConatiner = styled.View`
 
 export const BalenceTitle = styled.Text`
     color: rgba(255,255,255,0.8);
-    font-size: 14px;
+    font-size: 12px;
     text-align: center;
 `;
 
 export const Balence = styled.Text`
     color: #fff;
     text-align: center;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
 `;

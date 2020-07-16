@@ -1,25 +1,30 @@
 import React from 'react';
 import { Wrapper, Header, BalanceConatiner, BalenceTitle, Balence, Conatiner } from './styles'
-import { MaterialCommunityIcons, AntDesign } from '@expo/vector-icons';
+import { MaterialCommunityIcons, AntDesign, Feather } from '@expo/vector-icons';
 import Suggestions from '../../components/Suggestions';
 import Activities from '../../components/Activities';
+import { View } from 'react-native';
+import { divide } from 'react-native-reanimated';
 
 export default function Pay() {
   return (
     <Wrapper>
       <Header>
-        <MaterialCommunityIcons name='qrcode-scan' size={30} color = "#10c86e" />
+        <MaterialCommunityIcons name='qrcode-scan' size={25} color = "#10c86e" />
 
         <BalanceConatiner>
           <BalenceTitle>Meu Saldo</BalenceTitle>
           <Balence>R$ 0,00</Balence>
         </BalanceConatiner>
 
-        <AntDesign name='gift' size={30} color = "#10c86e" />
-
+        <View style={{flexDirection:"row"}}>
+          <AntDesign name='gift' size={25} color = "#10c86e" style={{marginRight: 10}}/>
+          <Feather name="percent" size={25} color="#10c86e" />
+        </View>
       </Header>
       <Conatiner>
         <Suggestions />
+        <Activities />
       </Conatiner>
     </Wrapper>
   );
