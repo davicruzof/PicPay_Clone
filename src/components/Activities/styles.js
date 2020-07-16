@@ -47,7 +47,7 @@ export const CardBody = styled.View`
 
 export const Username = styled.Text`
     color: #fff;
-    font-size: 16;
+    font-size: 16px;
 `;
 
 export const CardFooter = styled.View`
