@@ -4,6 +4,7 @@ import { MaterialCommunityIcons, AntDesign, Feather } from '@expo/vector-icons';
 import Suggestions from '../../components/Suggestions';
 import Activities from '../../components/Activities';
 import Tips from '../../components/Tips';
+import Banner from '../../components/Banner';
 import { View } from 'react-native';
 
 export default function Pay() {
@@ -26,6 +27,7 @@ export default function Pay() {
         <Suggestions />
         <Activities />
         <Tips />
+        <Banner />
       </Conatiner>
     </Wrapper>
   );
